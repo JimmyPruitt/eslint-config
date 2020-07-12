@@ -1,0 +1,18 @@
+{
+    "extends": [
+        "./.eslintrc.base.json",
+        "plugin:react/recommended",
+        "prettier/react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "browser": true
+    },
+    "plugins": [
+        "react"
+    ]
+}
