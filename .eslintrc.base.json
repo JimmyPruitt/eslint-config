@@ -37,6 +37,9 @@
         "default-case": "off",
         "no-console": "error",
         "no-alert": "error",
+        "no-unused-vars": ["error", {
+            "args": "none"
+        }],
 
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-explicit-any": "off",
