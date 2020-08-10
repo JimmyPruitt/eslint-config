@@ -1,0 +1,48 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "env": {
+        "commonjs": true,
+        "jest": true,
+        "es2017": true
+    },
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "prettier",
+        "eslint-plugin-jest"
+    ],
+    "ignorePatterns": [
+        "dist"
+    ],
+    "rules": {
+        "semi": "off",
+        "no-var": "error",
+        "prefer-const": "error",
+        "prefer-spread": "error",
+        "no-duplicate-imports": "error",
+        "arrow-parens": "off",
+        "brace-style": [2, "1tbs"],
+        "no-use-before-define": "error",
+        "no-shadow": "error",
+        "no-throw-literal": "error",
+        "guard-for-in": "error",
+        "default-case": "off",
+        "no-console": "error",
+        "no-alert": "error",
+
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-unused-vars": ["error", {
+            "args": "none"
+        }],
+        "@typescript-eslint/prefer-for-of": "error"
+    }
+}

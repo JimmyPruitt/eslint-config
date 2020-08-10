@@ -1,0 +1,4 @@
+*
+!.eslint*.json
+!package.json
+!yarn.lock
