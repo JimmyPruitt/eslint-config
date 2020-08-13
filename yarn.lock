@@ -166,9 +166,9 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-9.1.1.tgz#d97ebc35d20eed6d8458361cbca5c7cb85d45184"
   integrity sha512-SXY8bCQ1qacJ8AUTUxjabY8G6OjSmMPLN9MBCzGaKOjpPNX6z8zbXTbk9oU3GHZLtcxweWLCi2n49IRS4iQlwg==
 
-"@jimmypruitt/ts-config@https://github.com/jimmypruitt/ts-config#v0.0.1":
+"@jimmypruitt/ts-config@https://github.com/jimmypruitt/ts-config#v0.0.2":
   version "0.0.1"
-  resolved "https://github.com/jimmypruitt/ts-config#e036b69ba473995087379578161ab412eaea354f"
+  resolved "https://github.com/jimmypruitt/ts-config#ec440f703f8b6d16d6596e1e7fc2a318eb690f29"
   dependencies:
     typescript "^3.9.6"
 
