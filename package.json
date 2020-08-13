@@ -1,6 +1,6 @@
 {
   "name": "@jimmypruitt/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Jimmy's ESLint config",
   "main": ".eslintrc.json",
   "author": "Jimmy Pruitt",
